@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono:wght@500&family=Ultra&display=swap');
+
+.project-section{
+  background: #000;
+  color: rgb(152, 58, 240);
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  
+}
+
+.project-section h1 {
+  margin-top: 2rem;
+  
+}
+
+
+.project-btn{
+  
+  background-color: rgb(152, 58, 240);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: .5rem;
+}
+
+.project-list{
+  overflow: hidden;
+}
+
+.project{
+  padding: 20px;
+  border: 1px solid rgb(152, 58, 240);
+  border-radius: 10px;
+  margin: 30px 0;
+  animation: project-animation 10s linear infinite;
+
+}
+
+.project img{
+  height: 220px;
+  width: 100%;
+}
+
+.project:hover > .project-content {
+  opacity: 1;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.project:hover{
+  animation-play-state: paused;
+
+}
+
+.project-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(152, 58, 240, 0.8);
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all .5s;
+
+}
+
+.demo-button{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.demo-button:hover{
+  background-color: #000;
+  color: rgb(152, 58, 240);
+}
+
+
+@keyframes project-animation{
+
+  0%{
+    transform: rotate(-5deg);
+  }
+  25%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(5deg);
+  }
+  75%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-5deg);
+  }
+
+}
