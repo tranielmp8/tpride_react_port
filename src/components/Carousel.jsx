@@ -10,7 +10,7 @@ import {
   FaVuejs,
 } from "react-icons/fa";
 
-import { SiDjango } from "react-icons/si";
+import { SiDjango, SiFlask } from "react-icons/si";
 
 function Carousel() {
   return (
@@ -42,7 +42,7 @@ function Carousel() {
             <FaHtml5 color="orange" />
           </span>
           <span style={{ "--i": 8 }}>
-            <SiDjango color="darkgreen" />
+            <SiFlask color="white" />
           </span>
         </div>
       </div>

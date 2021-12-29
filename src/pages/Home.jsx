@@ -1,16 +1,19 @@
 import React from "react";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
+import { CgEnter } from "react-icons/cg";
 
 const Home = () => {
   return (
     <div>
       <Header />
       <div className="introduction flex-with-center">
-        <div>
+        <div className="btn-container">
           {/* <h1>TRANIEL</h1> */}
           <button className="primary-button home-btn font-bold">
-            <a href="./Projects">Projects</a>
+            <a className="home-btn-link" href="./Projects">
+              Projects
+            </a>
           </button>
         </div>
       </div>
@@ -89,13 +92,29 @@ const Home = () => {
       >
         <div className="about-left">
           <h1>About Me</h1>
+          <p>
+            Hello I'm <span>Traniel Pride</span>,
+          </p>
+          <p>
+            I am a developer with a big imagination. Coding is very exciting and
+            I enjoy seeing dreams on a webpage.
+          </p>
+          <p>
+            I have worked with Javascript, and some of the most popular
+            frameworks such as React and Vue. I have knowledge in Python and
+            Flask as well. Some other skills I have include(Nodejs, express,
+            mongoose). I have understanding of NoSQL: MongoDb, and other RDMS's
+            such as MySQL, and PostgreSQL.
+          </p>
         </div>
 
         <div className="about-center">
-          <img className="about-image" src="./me_outside.png" />
+          <center>
+            <img className="about-image" src="./me_outside.png" />
+          </center>
         </div>
 
-        <div className="">
+        <div className="about-right">
           <pre>
             <h3 className="font-bold about-header">More about Traniel</h3>
             {JSON.stringify(
@@ -103,7 +122,6 @@ const Home = () => {
                 name: "Traniel Pride",
                 Occupation: "Software Developer",
                 Degree: "(CIS - Computer Information Systems)",
-                gender: "Male",
               },
               null,
               3

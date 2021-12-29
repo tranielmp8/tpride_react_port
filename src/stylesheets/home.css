@@ -14,15 +14,19 @@
   font-size: 100px;
 }
 
-
+.btn-container{
+  width: 200px;
+}
 
 .home-btn{
   margin-top: 20rem;
+  width: 100%;
+
 }
 
 .primary-button {
   
-  height: 60px;
+  height: 70px;
   font-size: 25px;
   border-radius: 20px;
   
@@ -34,9 +38,18 @@
 
 .primary-button:hover {
   background-color: rgba(152, 58, 240);
-  color:rgba(0, 0, 0);
   box-shadow: 0px 0px 15px rgb(152, 58, 240);
   text-shadow: 0px 0px 15px rgb(0,0,0);
+}
+
+.home-btn-link{
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.home-btn-link:hover{
+  color: black;
+  
 }
 
 .jsbuff {
@@ -47,31 +60,27 @@
 }
 
 .about-me{
- display: flex;
- justify-content: space-around;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center;
  align-items: center;
  height: 75vh;
  color: #fff;
- 
-}
-
-pre:hover {
-  transform: scale(1.5);
-  overflow: hidden;
-  
-  font-weight: bold;
+ padding: 1rem .5rem 1rem 3rem;
 }
 
 
-/* pre{
-  font-size: 18px;
+
+pre{
+  font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
-} */
+}
 
 .about-image{
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+
 }
 
 
@@ -92,7 +101,9 @@ pre:hover {
   }
 
   .about-me{
-    padding-left: 1rem;
-    display: block;
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }
 }
