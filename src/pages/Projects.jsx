@@ -47,14 +47,14 @@ function Projects() {
         <div className="row">
           {projectsdata.map((project) => {
             return (
-              <div className="col-md-4">
+              <div className="proj-item col-md-4">
                 <div className="position-relative project">
                   <img src={project.image} alt="" />
                   <div className="project-content">
                     <h3>{project.title}</h3>
                     <hr />
                     <p>{project.description}</p>
-                    <button className="primary-button demo-button">DEMO</button>
+                    <button className="demo-button">DEMO</button>
                   </div>
                 </div>
               </div>
