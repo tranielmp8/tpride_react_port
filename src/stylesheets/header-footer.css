@@ -45,7 +45,7 @@
 ul li{
   color: black;
   list-style-type: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 ul a{
   color: black;
@@ -67,6 +67,35 @@ ul a{
 .active a{
   font-weight: bold;
   color: white;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.footer{
+  background-color: blueviolet;
+  width: 100%;
+  margin: 0;
+}
+
+
+.foot-list{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.foot-item{
+  cursor: pointer;
+
+}
+
+.foot-item:hover{
+  color: #fff;
 }
 
 @media(max-width: 750px){

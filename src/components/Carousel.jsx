@@ -27,7 +27,7 @@ function Carousel() {
             <FaPython color="darkblue" />
           </span>
           <span style={{ "--i": 3 }}>
-            <FaNodeJs color="green" />
+            <SiFlask color="white" />
           </span>
           <span style={{ "--i": 4 }}>
             <FaJsSquare color="yellow" />
@@ -42,7 +42,7 @@ function Carousel() {
             <FaHtml5 color="orange" />
           </span>
           <span style={{ "--i": 8 }}>
-            <SiFlask color="white" />
+            <SiDjango color="darkgreen" />
           </span>
         </div>
       </div>

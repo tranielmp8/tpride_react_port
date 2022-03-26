@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import { FaLaptopCode } from "react-icons/fa";
 import projectsdata from "./projectsdata";
+import Footer from "../components/Footer";
 
 function Projects() {
   return (
@@ -54,7 +55,11 @@ function Projects() {
                     <h3>{project.title}</h3>
                     <hr />
                     <p>{project.description}</p>
-                    <button className="demo-button">DEMO</button>
+                    <button className="demo-button">
+                      <a target="_blank" href={project.link}>
+                        Demo
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -62,6 +67,7 @@ function Projects() {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

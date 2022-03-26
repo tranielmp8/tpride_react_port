@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../stylesheets/contact.css";
 
@@ -28,6 +29,7 @@ function Contact() {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }

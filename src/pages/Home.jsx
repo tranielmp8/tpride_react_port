@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import { CgEnter } from "react-icons/cg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -39,38 +40,46 @@ const Home = () => {
           ></path>
         </svg>
       </div>
-      <div className="container mt-3">
+      <div className="container dnp-section mt-3">
+        {/* <img className="img-dnp" src="./dnp_logo.png" alt="dnp logo" /> */}
         <div className="row justify-content-start">
           <div className="col-md-4">
-            <div className="n-box2 px-3 py-4 font-bold">
-              <h1>Web Development</h1>
-              <p>Imagination on a browser</p>
+            <div className=" px-3 py-4 font-bold">
+              <img
+                className="left-img W-100"
+                src="./left-img.png"
+                alt="left img"
+                height="300"
+              />
+              <p className="text-center">Frontend Development</p>
             </div>
           </div>
         </div>
 
         <div className="row pt-5 justify-content-center">
           <div className="col-md-4">
-            <div className="jsbuff">
+            <div className="fullstack">
               <img
-                src="./jsbuff.svg"
-                alt="jsbuff"
-                height="200"
-                classnAME="W-100"
+                src="./fullstack.png"
+                alt="fullstack"
+                height="300"
+                className="W-100"
               />
             </div>
+            <p className="text-center">FullStack</p>
           </div>
         </div>
 
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className="n-box2 px-3 py-4 font-bold ">
-              <p>
-                Javascript is one of the most used programming languages in the
-                world because of its ubiquitous use on all platforms and mass
-                adoption. Javascript is well known especially for Web
-                Development.
-              </p>
+            <div className="px-3 py-4 font-bold ">
+              <img
+                src="./right-img.png"
+                alt="right-img"
+                height="300"
+                className="W-100 right-img"
+              />
+              <p className="text-center">Backend Development</p>
             </div>
           </div>
         </div>
@@ -129,6 +138,7 @@ const Home = () => {
           </pre>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

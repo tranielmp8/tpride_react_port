@@ -1,9 +1,9 @@
 const projectsdata = [
   {
-    title: "react",
-    image: "./ecommerce.svg",
-    description: "something to finish, maybe a cool website with react. hehehe",
-    link: "/",
+    title: "Magic Cards",
+    image: "./magic-cards.png",
+    description: "Match cards / Win the game",
+    link: "https://nostalgic-hypatia-d0baf2.netlify.app",
   },
   // {
   //   title: "SHEYPIZZA",
@@ -13,11 +13,10 @@ const projectsdata = [
   //   link: "/",
   // },
   {
-    title: "Pride_Ecommerce",
-    image: "./hotels.svg",
-    description:
-      "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
+    title: "Django_ToDo_App",
+    image: "./todo_app.png",
+    description: "Search for your favorite movie",
+    link: "https://peaceful-chamber-24219.herokuapp.com/",
   },
   // {
   //   title: "SHEYJOBS",
@@ -27,10 +26,10 @@ const projectsdata = [
   //   link: "/",
   // },
   {
-    title: "Pride_Blog",
-    image: "./socialmedia.svg",
-    description: "Lets Blog: just trying to make something up for show",
-    link: "/",
+    title: "Django_Book_Index",
+    image: "./book.png",
+    description: "Track your expenses",
+    link: "https://django-book-index.herokuapp.com/",
   },
   // {
   //   title: "SHEYCARS",
