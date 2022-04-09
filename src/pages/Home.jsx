@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
+import Projects from "./Projects";
 import { CgEnter } from "react-icons/cg";
 import Footer from "../components/Footer";
 
@@ -11,10 +13,14 @@ const Home = () => {
       <div className="introduction flex-with-center">
         <div className="btn-container">
           {/* <h1>TRANIEL</h1> */}
+
           <button className="primary-button home-btn font-bold">
-            <a className="home-btn-link" href="./Projects">
+            <Link
+              to="/Projects"
+              style={{ textDecoration: "none", color: "black" }}
+            >
               Projects
-            </a>
+            </Link>
           </button>
         </div>
       </div>
@@ -111,8 +117,8 @@ const Home = () => {
           <p>
             I have worked with Javascript, and some of the most popular
             frameworks such as React and Vue. I have knowledge in Python and
-            Flask as well. Some other skills I have include(Nodejs, express,
-            mongoose). I have understanding of NoSQL: MongoDb, and other RDMS's
+            Flask as well. Some other skills I have include: Nodejs, express,
+            mongoose. I have understanding of NoSQL: MongoDb, and other RDMS's
             such as MySQL, and PostgreSQL.
           </p>
         </div>
