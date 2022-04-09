@@ -15,12 +15,18 @@ function Contact() {
           className="form-img"
           alt="contact-envelope"
         />
+        {/* <form name="contact" netlify netlify-honeypot="bot-field" hidden >
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <textarea name="message"></textarea>
+        </form> */}
         <form
+          data-netlify="true"
           name="contact"
           method="POST"
-          data-netlify="true"
           className="contact-form"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <input type="text" name="name" placeholder="Your Name" />
           <input name="email" type="email" placeholder="Email" />
           <textarea name="message" placeholder="Your Message"></textarea>
