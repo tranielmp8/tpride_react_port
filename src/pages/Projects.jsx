@@ -19,7 +19,7 @@ function Projects() {
           </div> */}
           <div className="col-md-4 position-relative">
             <h1 className="font-bold">Projects</h1>
-            <p className="font-bold">React, Javascript, HTML/CSS</p>
+            <p className="font-bold">React, Javascript, HTML/CSS, Django</p>
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill="#000000"
@@ -41,7 +41,7 @@ function Projects() {
           className="font-bold"
           style={{ textAlign: "center", color: "white", fontSize: "40px" }}
         >
-          Take a look at my projects
+          Take a look at a few of my projects!
         </h3>
         <hr style={{ height: ".5rem", background: "rgb(152, 58, 240)" }} />
 
@@ -56,7 +56,7 @@ function Projects() {
                     <hr />
                     <p>{project.description}</p>
                     <button className="demo-button">
-                      <a target="_blank" href={project.link}>
+                      <a target="_blank" rel='noopener noreferrer' href={project.link}>
                         Demo
                       </a>
                     </button>

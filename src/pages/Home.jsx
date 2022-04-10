@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
-import Projects from "./Projects";
-import { CgEnter } from "react-icons/cg";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -125,7 +123,7 @@ const Home = () => {
 
         <div className="about-center">
           <center>
-            <img className="about-image" src="./me_outside.png" />
+            <img className="about-image" src="./me_outside.png" alt="about" />
           </center>
         </div>
 
