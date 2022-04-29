@@ -15,7 +15,7 @@ const projectsdata = [
   {
     title: "Django_ToDo_App",
     image: "./todo_app.png",
-    description: "Search for your favorite movie",
+    description: "Keep track of your todo's",
     link: "https://peaceful-chamber-24219.herokuapp.com/",
   },
   // {
@@ -28,7 +28,7 @@ const projectsdata = [
   {
     title: "Django_Book_Index",
     image: "./book.png",
-    description: "Track your expenses",
+    description: "Index your favorite books and create your own details for each book",
     link: "https://django-book-index.herokuapp.com/",
   },
   // {
