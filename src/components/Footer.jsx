@@ -6,19 +6,18 @@ function Footer() {
       <ul className="foot-list">
         <li className="foot-item">
           <a
-            href="https://www.linkedin.com/in/traniel-pride-019768212/"
-            target="_blank"
+            href="#"
           >
             <AiFillLinkedin />
           </a>
         </li>
         <li className="foot-item">
-          <a href="https://github.com/tranielmp8" target="_blank">
+          <a href="#">
             <AiFillGithub />
           </a>
         </li>
         <li className="foot-item">
-          <a href="https://www.facebook.com/traniel.pride" target="_blank">
+          <a href="#">
             <AiFillFacebook />
           </a>
         </li>

@@ -56,7 +56,7 @@ function Projects() {
                     <hr />
                     <p>{project.description}</p>
                     <button className="demo-button">
-                      <a target="_blank" rel='noopener noreferrer' href={project.link}>
+                      <a target="_blank" rel='noopener noreferrer' href="#">
                         Demo
                       </a>
                     </button>

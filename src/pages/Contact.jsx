@@ -5,7 +5,11 @@ import "../stylesheets/contact.css";
 
 const Contact = () => {
   
- 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    alert('Practice Submitting')
+  }
+
   return (
     <div className="contact-page ">
       <Header />
@@ -23,6 +27,7 @@ const Contact = () => {
           method="POST"
           className="contact-form"
           data-netlify="true"
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" name="name" placeholder="Your Name" />
